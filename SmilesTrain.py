@@ -4,7 +4,7 @@ from tqdm import tqdm
 from SmilesData import SmilesProvider
 from SmilesModel import SmilesLSTM
 
-def train(file='250k.smi',batch_size=256,learning_rate=0.001,n_epochs=1,device='cuda'):
+def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=30, device='cuda'):
     """
     This is the entrypoint for training of the RNN
     :param file: A file with molecules in SMILES notation
@@ -44,10 +44,11 @@ def train(file='250k.smi',batch_size=256,learning_rate=0.001,n_epochs=1,device='
             loss.backward()
 # ======== TASK 2 start your code here =================================
             optimizer.step()
-
-
 # ======== TASK 2 end your code here ===================================
+
+        print(f"Epoch {epoch} / {n_epochs} done")
+        
     model.device = 'cpu'
-    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()},"genmodelLSTM.pt")
+    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()},"SmilesLSTM.pt")
     print("Training done!")
 train() 

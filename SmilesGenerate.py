@@ -2,7 +2,7 @@ import torch
 from rdkit import Chem
 from SmilesData import __special__
 
-def generate(file='genmodelLSTM.pt',batch_size=64):
+def generate(file='SmilesLSTM30ep.pt',batch_size=64):
     """
     This is the entrypoint for the generator of SMILES
     :param file: A file with pretrained model
@@ -23,8 +23,6 @@ def generate(file='genmodelLSTM.pt',batch_size=64):
             correct += 1
             list_smiles.append(smiles)
 # ======== end your code here ===================================
-    # print ("% of correct molecules is {:4.2f}".format(correct/float(batch_size)*100))
-    print(list_smiles)
-    return list_smiles, correct/float(batch_size)*100
-
-generate()
+    p_valid_smiles = correct/float(batch_size)*100
+    print (f"{p_valid_smiles} % are valid smiles")
+    return list_smiles, p_valid_smiles
