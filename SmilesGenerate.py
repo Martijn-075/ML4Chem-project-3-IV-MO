@@ -2,7 +2,7 @@ import torch
 from rdkit import Chem
 from SmilesData import __special__
 
-def generate(file='SmilesLSTM30ep.pt',batch_size=64):
+def generate(file='SmilesLSTM30ep.pt',batch_size=64, temp=1.):
     """
     This is the entrypoint for the generator of SMILES
     :param file: A file with pretrained model
@@ -12,7 +12,7 @@ def generate(file='SmilesLSTM30ep.pt',batch_size=64):
     box= torch.load(file)
     model,tokenizer = box['model'],box['tokenizer']
     model.eval()
-    res = model.sample(batch_size)
+    res = model.sample(batch_size, temp=temp)
     correct = 0
     list_smiles = []
     for i in range(res.size(0)):

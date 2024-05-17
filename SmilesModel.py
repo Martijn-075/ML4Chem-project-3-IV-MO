@@ -41,7 +41,7 @@ class SmilesLSTM(nn.Module):
 
         return x
 
-    def sample(self,batch_size=128):
+    def sample(self,batch_size=128, temp=1.):
         bos_token = [k for k,v in __special__.items() if v == "<BOS>"][0]
         x = torch.LongTensor([bos_token]*batch_size)
         h_1 = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
@@ -56,6 +56,7 @@ class SmilesLSTM(nn.Module):
             x, (h_2, c_2) = self.lstm_2(x, (h_2, c_2))
             x = self.linear(x).squeeze(1)
             x = F.softmax(x, dim=1)
+            x = x * (1./temp)
             x = torch.multinomial(x, num_samples=1,replacement=True).squeeze(1)
             accumulator[:,i] = x
         return accumulator

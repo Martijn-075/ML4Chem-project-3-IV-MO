@@ -4,7 +4,7 @@ from SmilesGenerate import generate
 
 # ======== start your code here =================================
 batch_size = 64
-smiles, pc = generate(batch_size=batch_size)
+smiles, pc = generate(batch_size=batch_size, temp=10)
 n_print = 9
 len_smiles = len(smiles)
 indicies = []
