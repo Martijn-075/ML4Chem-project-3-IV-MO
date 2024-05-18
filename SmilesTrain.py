@@ -3,8 +3,9 @@ import torch.nn as nn
 from tqdm import tqdm
 from SmilesData import SmilesProvider
 from SmilesModel import SmilesLSTM
+from SmilesGenerate import ValidSmiles
 
-def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=5, device='cuda'):
+def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=1, device='cuda'):
     """
     This is the entrypoint for training of the RNN
     :param file: A file with molecules in SMILES notation
@@ -25,12 +26,14 @@ def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=5, devic
     # torch.autograd.set_detect_anomaly(True)
 # ======== TASK 1 end your code here ===================================
     for epoch in range(1, n_epochs + 1):
-        for iteration,(batch,target) in enumerate(tqdm(dataloader,'Training')):
+        total_loss = 0.
+        for iteration,(batch, target) in enumerate(tqdm(dataloader,'Training')):
             batch, target = batch.to(device), target.to(device)
             out = model(batch)
             out = out.transpose(2,1)
             # what does the slcing do it removes the last from prediction and the first carater from the target
-            loss = loss_function(out[:,:,:-1],target[:,1:])
+            loss = loss_function(out[:,:,:-1], target[:,1:])
+            total_loss += loss
             # print('loss', loss)
             # print('batch', batch)
             # print("prediction", out.size())
@@ -47,9 +50,12 @@ def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=5, devic
             optimizer.step()
 # ======== TASK 2 end your code here ===================================
 
-        print(f"Epoch {epoch} of {n_epochs} done")
+
+        p_validSmiles = ValidSmiles(model, dataset.index2token, batch_size=100, temp=1.)
+        model.train()
+        print(f"Epoch {epoch} of {n_epochs} done, {p_validSmiles}% valid smiles generated, epoch loss: {total_loss}")
         
     model.device = 'cpu'
-    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "SmilesLSTM5ep.pt")
+    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "test.pt")
     print("Training done!")
 train() 
