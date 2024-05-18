@@ -4,7 +4,7 @@ from tqdm import tqdm
 from SmilesData import SmilesProvider
 from SmilesModel import SmilesLSTM
 
-def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=30, device='cuda'):
+def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=5, device='cuda'):
     """
     This is the entrypoint for training of the RNN
     :param file: A file with molecules in SMILES notation
@@ -22,6 +22,7 @@ def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=30, devi
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     loss_function = nn.CrossEntropyLoss()
     model.train()
+    # torch.autograd.set_detect_anomaly(True)
 # ======== TASK 1 end your code here ===================================
     for epoch in range(1, n_epochs + 1):
         for iteration,(batch,target) in enumerate(tqdm(dataloader,'Training')):
@@ -46,9 +47,9 @@ def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=30, devi
             optimizer.step()
 # ======== TASK 2 end your code here ===================================
 
-        print(f"Epoch {epoch} / {n_epochs} done")
+        print(f"Epoch {epoch} of {n_epochs} done")
         
     model.device = 'cpu'
-    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()},"SmilesLSTM.pt")
+    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "SmilesLSTM5ep.pt")
     print("Training done!")
 train() 

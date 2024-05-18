@@ -4,7 +4,7 @@ from SmilesGenerate import generate
 
 # ======== start your code here =================================
 batch_size = 64
-smiles, pc = generate(batch_size=batch_size, temp=10)
+smiles, pc = generate(file="SmilesLSTM5epddropouts.pt", batch_size=batch_size, temp=1)
 n_print = 9
 len_smiles = len(smiles)
 indicies = []
@@ -19,7 +19,6 @@ if len_smiles >= n_print:
             mols.append(Chem.MolFromSmiles(smiles[index])) # type: ignore
             n += 1
 
-    Draw.MolsToGridImage(mols)
-
+    Draw.MolsToImage(mols)
 
 # ======== end your code here ===================================
