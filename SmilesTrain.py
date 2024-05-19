@@ -5,7 +5,7 @@ from SmilesData import SmilesProvider
 from SmilesModel import SmilesLSTM
 from SmilesGenerate import ValidSmiles
 
-def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=1, device='cuda'):
+def train(file='smiles_CHEMBL_22', batch_size=1536,learning_rate=0.001, n_epochs=10, device='cuda'):
     """
     This is the entrypoint for training of the RNN
     :param file: A file with molecules in SMILES notation
@@ -56,6 +56,6 @@ def train(file='250k.smi', batch_size=256,learning_rate=0.001, n_epochs=1, devic
         print(f"Epoch {epoch} of {n_epochs} done, {p_validSmiles}% valid smiles generated, epoch loss: {total_loss}")
         
     model.device = 'cpu'
-    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "test.pt")
+    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "CHEMBL22.pt")
     print("Training done!")
 train() 
