@@ -20,7 +20,7 @@ from SmilesData import __special__
 
 # ======== start your code here =================================
 batch_size = 100
-smiles, pc = generate(file="CHEMBL22_10ep.pt", batch_size=batch_size, temp=1)
+smiles, pc = generate(file="models/CHEMBL22_10ep.pt", batch_size=batch_size, temp=1)
 n_print = 9
 len_smiles = len(smiles)
 indicies = []

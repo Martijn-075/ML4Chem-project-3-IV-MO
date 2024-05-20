@@ -5,7 +5,7 @@ from SmilesData import SmilesProvider
 from SmilesModel import SmilesLSTM
 from SmilesGenerate import ValidSmiles
 
-def train(file='smiles_CHEMBL_22', batch_size=1536,learning_rate=0.001, n_epochs=10, device='cuda'):
+def train(train_file='smiles_CHEMBL_22', save_file="testCHEMBL22.pt", batch_size=1536,learning_rate=0.001, n_epochs=10, device='cuda'):
     """
     This is the entrypoint for training of the RNN
     :param file: A file with molecules in SMILES notation
@@ -16,7 +16,7 @@ def train(file='smiles_CHEMBL_22', batch_size=1536,learning_rate=0.001, n_epochs
     :return: None. It saves the model to "genmodel.pt" file
     """
     device = device if torch.cuda.is_available() else 'cpu'
-    dataset = SmilesProvider(file)
+    dataset = SmilesProvider(train_file)
     model = SmilesLSTM(dataset.vocsize, device=device).to(device)
     dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True) # type: ignore
 # ======== TASK 1 start your code here =================================
@@ -56,6 +56,6 @@ def train(file='smiles_CHEMBL_22', batch_size=1536,learning_rate=0.001, n_epochs
         print(f"Epoch {epoch} of {n_epochs} done, {p_validSmiles}% valid smiles generated, epoch loss: {total_loss}")
         
     model.device = 'cpu'
-    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, "CHEMBL22.pt")
+    torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, f"models/{save_file}")
     print("Training done!")
 train() 
