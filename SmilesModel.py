@@ -16,6 +16,7 @@ class SmilesLSTM(nn.Module):
         self.lstm = nn.LSTM(vocsize, hidden_size, bidirectional=False, batch_first=True, num_layers=num_layers, dropout=0.5)
         self.dropout_03 = nn.Dropout(0.3)
         self.linear = nn.Linear(hidden_size, vocsize)
+        
 # h and c are initialized by pytorch and are then used in a batch config
     def forward(self, x):
         x, _ = self.lstm(x)
@@ -23,14 +24,16 @@ class SmilesLSTM(nn.Module):
         x = self.linear(x)
         return x
 
-    def sample(self, batch_size=128, temp=1.):
+    def sample(self, batch_size=128, temp=1., h=None, c=None):
+        
         bos_token = [k for k,v in __special__.items() if v == "<BOS>"][0]
         x = torch.LongTensor([bos_token]*batch_size)
-        h = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
-        c = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
+        if h == None:
+            h = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
+        if c == None:
+            c = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
         accumulator = torch.zeros(batch_size, self.max_len)
         for i in range(self.max_len):
-
             x = one_hot(x, self.vocsize).float().unsqueeze(1).to(self.device)
             x, (h, c) = self.lstm(x, (h, c))
             x = self.dropout_03(x)
@@ -40,4 +43,5 @@ class SmilesLSTM(nn.Module):
             x = F.softmax(x, dim=1)
             x = torch.multinomial(x, num_samples=1,replacement=True).squeeze(1)
             accumulator[:,i] = x
-        return accumulator
+        return accumulator, h, c
+    

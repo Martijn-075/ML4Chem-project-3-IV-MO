@@ -1,9 +1,14 @@
 from rdkit import Chem
 from rdkit.Chem import Draw
 import torch
+from rdkit.Chem.Draw import IPythonConsole
 from torch.nn.functional import one_hot
 from SmilesGenerate import generate
-from SmilesData import __special__
+from SmilesData import __special__, logger
+from VisualizeSmiles import Visualize_Molecules_from_Smiles
+
+
+logger("test", "models/testlog")
 
 
 # box= torch.load('SmilesLSTM5epddropouts.pt')
@@ -20,12 +25,13 @@ from SmilesData import __special__
 
 # ======== start your code here =================================
 batch_size = 100
-smiles, pc = generate(file="models/CHEMBL22_10ep.pt", batch_size=batch_size, temp=1)
+smiles, pc, h, c = generate(file="CHEMBL22_10ep.pt", batch_size=batch_size, temp=1)
 n_print = 9
 len_smiles = len(smiles)
 indicies = []
 mols = []
 n = 0
+IPythonConsole.UninstallIPythonRenderer()
 if len_smiles >= n_print:
 
     while n < len_smiles and len(mols) < n_print:
@@ -35,9 +41,12 @@ if len_smiles >= n_print:
             mols.append(Chem.MolFromSmiles(smiles[index])) # type: ignore
             n += 1
 
-    Draw.MolsToImage(mols)
+    img = Draw.MolsToGridImage(mols)
+    img.save("test.png")
     
-print(f'{pc}% valid strings')
-# print(smiles)
+print(f'{pc}% valid smiles')
+# print(h[:,1,:])
+
+Visualize_Molecules_from_Smiles(smiles)
 
 # ======== end your code here ===================================

@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 from tqdm import tqdm
-from SmilesData import SmilesProvider
+from SmilesData import SmilesProvider, logger
 from SmilesModel import SmilesLSTM
-from SmilesGenerate import ValidSmiles
+from SmilesGenerate import generate_current_model
 
 def train(train_file='smiles_CHEMBL_22', save_file="testCHEMBL22.pt", batch_size=1536,learning_rate=0.001, n_epochs=10, device='cuda'):
     """
@@ -50,10 +50,11 @@ def train(train_file='smiles_CHEMBL_22', save_file="testCHEMBL22.pt", batch_size
             optimizer.step()
 # ======== TASK 2 end your code here ===================================
 
-
-        p_validSmiles = ValidSmiles(model, dataset.index2token, batch_size=100, temp=1.)
+        _, p_validSmiles = generate_current_model(model, dataset.index2token, batch_size=100, temp=1.)
         model.train()
-        print(f"Epoch {epoch} of {n_epochs} done, {p_validSmiles}% valid smiles generated, epoch loss: {total_loss}")
+        message = f"Epoch {epoch} of {n_epochs} done, {p_validSmiles}% valid smiles generated, epoch loss: {total_loss}"
+        print(message)
+        logger(message, f"models/{save_file}_logs")
         
     model.device = 'cpu'
     torch.save({'tokenizer':dataset.index2token,'model':model.cpu()}, f"models/{save_file}")

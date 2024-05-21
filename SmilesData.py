@@ -1,6 +1,7 @@
 import torch
 from torch.nn.functional import one_hot
 import functools
+import datetime
 from tqdm import tqdm
 from rdkit import RDLogger
 
@@ -25,7 +26,13 @@ class SmilesProvider(torch.utils.data.DataLoader): # type: ignore
         special_added = torch.cat((torch.LongTensor([self.token2index['<BOS>']])
                                    ,self.ints[i],torch.LongTensor([self.token2index['<EOS>']]),
                                    torch.LongTensor([self.token2index["<PAD>"]]*(self.total-len(self.ints[i])-2))),dim=0)
-        return one_hot(special_added,self.vocsize).float(),special_added
+        return one_hot(special_added, self.vocsize).float(),special_added
 
     def __len__(self):
         return len(self.smiles)
+    
+    
+def logger(message, file_path):
+    current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    with open(file_path, 'a') as file:
+        file.write(f"{current_time} - {message} \n")
