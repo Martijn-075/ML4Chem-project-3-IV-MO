@@ -1,0 +1,403 @@
+2024-05-22 15:47:22 - Epoch 1 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.2491233314544666 
+2024-05-22 15:47:22 - Epoch 2 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.17724499055820117 
+2024-05-22 15:47:22 - Epoch 3 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.1744039109099125 
+2024-05-22 15:47:22 - Epoch 4 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.16143089877406666 
+2024-05-22 15:47:22 - Epoch 5 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.15251897995357291 
+2024-05-22 15:47:23 - Epoch 6 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.14965555681990222 
+2024-05-22 15:47:23 - Epoch 7 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.14680429399733602 
+2024-05-22 15:47:23 - Epoch 8 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.14068638720285884 
+2024-05-22 15:47:23 - Epoch 9 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13627914704250285 
+2024-05-22 15:47:23 - Epoch 10 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13491292259719534 
+2024-05-22 15:47:24 - Epoch 1 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.15495649838552691 
+2024-05-22 15:47:24 - Epoch 2 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.15997598397016546 
+2024-05-22 15:47:24 - Epoch 3 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.15160396311544694 
+2024-05-22 15:47:24 - Epoch 4 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.14078214516905052 
+2024-05-22 15:47:24 - Epoch 5 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.13543951269963858 
+2024-05-22 15:47:24 - Epoch 6 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.13120973400304062 
+2024-05-22 15:47:24 - Epoch 7 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1285806050752688 
+2024-05-22 15:47:24 - Epoch 8 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.12139025989707766 
+2024-05-22 15:47:24 - Epoch 9 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.11602903456032249 
+2024-05-22 15:47:25 - Epoch 10 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.11650308134983388 
+2024-05-22 15:47:25 - Epoch 1 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.21817737161434766 
+2024-05-22 15:47:25 - Epoch 2 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.2454185198116563 
+2024-05-22 15:47:25 - Epoch 3 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.21722963508345974 
+2024-05-22 15:47:25 - Epoch 4 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.20067481910739 
+2024-05-22 15:47:25 - Epoch 5 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.19692799392928617 
+2024-05-22 15:47:25 - Epoch 6 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.18635238620309968 
+2024-05-22 15:47:25 - Epoch 7 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.17790609056359125 
+2024-05-22 15:47:25 - Epoch 8 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.1699328330703058 
+2024-05-22 15:47:25 - Epoch 9 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.16687713898900425 
+2024-05-22 15:47:25 - Epoch 10 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.15968869502095417 
+2024-05-22 15:47:26 - Epoch 1 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.18866018712875512 
+2024-05-22 15:47:26 - Epoch 2 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.19272672273850872 
+2024-05-22 15:47:26 - Epoch 3 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.17193685590906674 
+2024-05-22 15:47:26 - Epoch 4 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.16502982052766524 
+2024-05-22 15:47:26 - Epoch 5 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.16383929912390885 
+2024-05-22 15:47:26 - Epoch 6 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.15236971177830855 
+2024-05-22 15:47:26 - Epoch 7 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.14561825848204837 
+2024-05-22 15:47:26 - Epoch 8 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.14032687748271333 
+2024-05-22 15:47:26 - Epoch 9 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.1346728606608137 
+2024-05-22 15:47:26 - Epoch 10 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.13279377619420163 
+2024-05-22 15:47:26 - Epoch 1 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.13347977765600436 
+2024-05-22 15:47:27 - Epoch 2 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.15598644447867313 
+2024-05-22 15:47:27 - Epoch 3 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.12363450429493685 
+2024-05-22 15:47:27 - Epoch 4 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.11338395548972198 
+2024-05-22 15:47:27 - Epoch 5 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.10819874803797325 
+2024-05-22 15:47:27 - Epoch 6 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.10272226704655611 
+2024-05-22 15:47:27 - Epoch 7 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.09822983451518047 
+2024-05-22 15:47:27 - Epoch 8 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.09200606289111293 
+2024-05-22 15:47:27 - Epoch 9 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.08558184798977111 
+2024-05-22 15:47:27 - Epoch 10 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.08422442226510772 
+2024-05-22 15:48:05 - Epoch 1 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.22279978175355997 
+2024-05-22 15:48:05 - Epoch 2 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.167297817606861 
+2024-05-22 15:48:06 - Epoch 3 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.16583110186768654 
+2024-05-22 15:48:06 - Epoch 4 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.15777550897059284 
+2024-05-22 15:48:06 - Epoch 5 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.1497786763031219 
+2024-05-22 15:48:06 - Epoch 6 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.14136636040684405 
+2024-05-22 15:48:06 - Epoch 7 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13682599501947343 
+2024-05-22 15:48:07 - Epoch 8 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13303885446493072 
+2024-05-22 15:48:07 - Epoch 9 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13098802919022456 
+2024-05-22 15:48:07 - Epoch 10 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.12660523141000538 
+2024-05-22 15:48:07 - Epoch 1 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.17787682329912846 
+2024-05-22 15:48:07 - Epoch 2 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.20660901666759535 
+2024-05-22 15:48:07 - Epoch 3 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.17017947751746854 
+2024-05-22 15:48:07 - Epoch 4 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.15194132792290896 
+2024-05-22 15:48:07 - Epoch 5 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1424733648534353 
+2024-05-22 15:48:08 - Epoch 6 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.14723328908370534 
+2024-05-22 15:48:08 - Epoch 7 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.13755936534109275 
+2024-05-22 15:48:08 - Epoch 8 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1320494914494862 
+2024-05-22 15:48:08 - Epoch 9 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1230839796741311 
+2024-05-22 15:48:08 - Epoch 10 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1193115377863812 
+2024-05-22 15:48:08 - Epoch 1 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.1889740788960833 
+2024-05-22 15:48:08 - Epoch 2 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.18286830527600006 
+2024-05-22 15:48:08 - Epoch 3 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.17133327361165188 
+2024-05-22 15:48:08 - Epoch 4 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.16172381721409426 
+2024-05-22 15:48:08 - Epoch 5 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.14632300647481497 
+2024-05-22 15:48:08 - Epoch 6 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.13957305322775723 
+2024-05-22 15:48:08 - Epoch 7 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.13069459751809012 
+2024-05-22 15:48:08 - Epoch 8 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.1283755008946584 
+2024-05-22 15:48:08 - Epoch 9 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.12131834098390132 
+2024-05-22 15:48:08 - Epoch 10 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.11926572927914869 
+2024-05-22 15:48:09 - Epoch 1 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.24354925795766297 
+2024-05-22 15:48:09 - Epoch 2 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.2791499967381502 
+2024-05-22 15:48:09 - Epoch 3 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.21236916935564717 
+2024-05-22 15:48:09 - Epoch 4 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.20725075622142278 
+2024-05-22 15:48:09 - Epoch 5 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.19643688882186752 
+2024-05-22 15:48:09 - Epoch 6 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.18634021460802497 
+2024-05-22 15:48:09 - Epoch 7 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.1818824892417393 
+2024-05-22 15:48:09 - Epoch 8 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.16996149890206735 
+2024-05-22 15:48:09 - Epoch 9 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.15982371102702944 
+2024-05-22 15:48:09 - Epoch 10 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.1615731044286176 
+2024-05-22 15:48:09 - Epoch 1 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.22829010942242858 
+2024-05-22 15:48:09 - Epoch 2 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.21414693759222225 
+2024-05-22 15:48:09 - Epoch 3 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.19451981460067466 
+2024-05-22 15:48:10 - Epoch 4 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.18550439770447635 
+2024-05-22 15:48:10 - Epoch 5 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.17705975817178288 
+2024-05-22 15:48:10 - Epoch 6 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.17462168456205462 
+2024-05-22 15:48:10 - Epoch 7 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.16058940259648402 
+2024-05-22 15:48:10 - Epoch 8 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.15661803661284895 
+2024-05-22 15:48:10 - Epoch 9 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.14908305055052704 
+2024-05-22 15:48:10 - Epoch 10 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.14540327684974813 
+2024-05-22 15:49:42 - Epoch 1 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.19958677379763204 
+2024-05-22 15:49:43 - Epoch 2 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.15171563284574655 
+2024-05-22 15:49:43 - Epoch 3 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.14120823010971342 
+2024-05-22 15:49:43 - Epoch 4 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.13479093354961041 
+2024-05-22 15:49:43 - Epoch 5 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.12551446475050765 
+2024-05-22 15:49:43 - Epoch 6 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.12165369329508308 
+2024-05-22 15:49:43 - Epoch 7 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.11763756993797193 
+2024-05-22 15:49:44 - Epoch 8 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.11669041141720163 
+2024-05-22 15:49:44 - Epoch 9 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.11365486922125599 
+2024-05-22 15:49:44 - Epoch 10 of 10 of the bias traning it 1 of 5 done of the bias training epoch loss: 0.1134705933734016 
+2024-05-22 15:49:44 - Epoch 1 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1635011334752584 
+2024-05-22 15:49:44 - Epoch 2 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.18226531141974045 
+2024-05-22 15:49:44 - Epoch 3 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1558022107934855 
+2024-05-22 15:49:45 - Epoch 4 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.14365348734422229 
+2024-05-22 15:49:45 - Epoch 5 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.14096039884111025 
+2024-05-22 15:49:45 - Epoch 6 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.1356366544315064 
+2024-05-22 15:49:45 - Epoch 7 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.12896342844372102 
+2024-05-22 15:49:45 - Epoch 8 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.12437811566468401 
+2024-05-22 15:49:45 - Epoch 9 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.11786713798245192 
+2024-05-22 15:49:45 - Epoch 10 of 10 of the bias traning it 2 of 5 done of the bias training epoch loss: 0.11503437442059711 
+2024-05-22 15:49:45 - Epoch 1 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.2121543005191294 
+2024-05-22 15:49:45 - Epoch 2 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.2276283917126845 
+2024-05-22 15:49:45 - Epoch 3 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.19214648948436622 
+2024-05-22 15:49:45 - Epoch 4 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.1824961563868426 
+2024-05-22 15:49:46 - Epoch 5 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.17607846054427342 
+2024-05-22 15:49:46 - Epoch 6 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.17254581863015153 
+2024-05-22 15:49:46 - Epoch 7 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.16186101370312847 
+2024-05-22 15:49:46 - Epoch 8 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.15330289480980083 
+2024-05-22 15:49:46 - Epoch 9 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.15017671987172843 
+2024-05-22 15:49:46 - Epoch 10 of 10 of the bias traning it 3 of 5 done of the bias training epoch loss: 0.13891706176595375 
+2024-05-22 15:49:46 - Epoch 1 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.23559888701251686 
+2024-05-22 15:49:46 - Epoch 2 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.24386579470150194 
+2024-05-22 15:49:46 - Epoch 3 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.23010967766869264 
+2024-05-22 15:49:46 - Epoch 4 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.21010295611288504 
+2024-05-22 15:49:46 - Epoch 5 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.20561704363309116 
+2024-05-22 15:49:46 - Epoch 6 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.19671789519086375 
+2024-05-22 15:49:46 - Epoch 7 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.19294490799801756 
+2024-05-22 15:49:46 - Epoch 8 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.1794255488005098 
+2024-05-22 15:49:47 - Epoch 9 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.18011538118646012 
+2024-05-22 15:49:47 - Epoch 10 of 10 of the bias traning it 4 of 5 done of the bias training epoch loss: 0.17273353645049408 
+2024-05-22 15:49:47 - Epoch 1 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.3229231945945516 
+2024-05-22 15:49:47 - Epoch 2 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.3267992844946955 
+2024-05-22 15:49:47 - Epoch 3 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.26826687850638187 
+2024-05-22 15:49:47 - Epoch 4 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.256244484872338 
+2024-05-22 15:49:47 - Epoch 5 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.24352477148196158 
+2024-05-22 15:49:47 - Epoch 6 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.2233282676593427 
+2024-05-22 15:49:47 - Epoch 7 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.21407491522850908 
+2024-05-22 15:49:47 - Epoch 8 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.19834741659160376 
+2024-05-22 15:49:47 - Epoch 9 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.1960364870671206 
+2024-05-22 15:49:47 - Epoch 10 of 10 of the bias traning it 5 of 5 done of the bias training epoch loss: 0.17682787049329293 
+2024-05-22 15:55:36 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.388815091380256 
+2024-05-22 15:55:37 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.293176139001334 
+2024-05-22 15:55:38 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.7601050638891258 
+2024-05-22 15:55:39 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.5035036936053465 
+2024-05-22 15:55:40 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.8291604351769277 
+2024-05-22 15:59:24 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.3374112865123375 
+2024-05-22 15:59:25 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.759538082217471 
+2024-05-22 15:59:25 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.2120873829564225 
+2024-05-22 15:59:26 - Bias traning it 4 of 5 done of the bias training epoch loss: 0.8846286791191655 
+2024-05-22 15:59:26 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.1009765522771926 
+2024-05-22 16:00:06 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.0509520359979259 
+2024-05-22 16:00:06 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1757183593174712 
+2024-05-22 16:00:07 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.2451764201436855 
+2024-05-22 16:00:08 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.6577535004088817 
+2024-05-22 16:00:08 - Bias traning it 5 of 5 done of the bias training epoch loss: 0.7468073248528592 
+2024-05-22 16:02:13 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.8016829759928603 
+2024-05-22 16:05:00 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.9069446443994494 
+2024-05-22 16:05:10 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.269209717772271 
+2024-05-22 16:05:17 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.1928518758071882 
+2024-05-22 16:05:23 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.6080478473744668 
+2024-05-22 16:05:28 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.5445220525469088 
+2024-05-22 16:14:00 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.8383977552083861 
+2024-05-22 16:14:10 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1390593643984548 
+2024-05-22 16:14:19 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.0996494357063498 
+2024-05-22 16:14:26 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.1486933537364898 
+2024-05-22 16:14:33 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.1570370452359597 
+2024-05-22 16:24:13 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.8611106996813478 
+2024-05-22 16:24:23 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1711211861263375 
+2024-05-22 16:24:28 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.2901690014700322 
+2024-05-22 16:24:34 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.3340063475126638 
+2024-05-22 16:24:38 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.765510713725208 
+2024-05-22 16:27:17 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.8262332033027373 
+2024-05-22 16:27:27 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1115398018871265 
+2024-05-22 16:27:33 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.5122576889561632 
+2024-05-22 16:27:39 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.535380292767887 
+2024-05-22 16:27:43 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.569831794501668 
+2024-05-22 16:29:34 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.0246168698379086 
+2024-05-22 16:29:45 - Bias traning it 2 of 5 done of the bias training epoch loss: 0.7983785928689617 
+2024-05-22 16:29:52 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.4045314354959908 
+2024-05-22 16:30:00 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.7652897286019233 
+2024-05-22 16:30:07 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.586777817121763 
+2024-05-22 16:30:40 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.9599259714919063, reward sum 218.17845585455927 
+2024-05-22 16:30:50 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.023325176273456, reward sum 98.49417990000666 
+2024-05-22 16:30:57 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.2194523147347376, reward sum 69.91188782002752 
+2024-05-22 16:31:05 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.4091247824251902, reward sum 84.05827997840098 
+2024-05-22 16:31:13 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.5895131773382212, reward sum 91.48255182040369 
+2024-05-22 16:32:58 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.962308811623464, reward sum 211.77798887451826 
+2024-05-22 16:33:09 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1004482269711944, reward sum 116.26916180904509 
+2024-05-22 16:33:15 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.277666620245525, reward sum 71.29277504694252 
+2024-05-22 16:33:21 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.7259936107351912, reward sum 65.4157344745224 
+2024-05-22 16:33:27 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.717062123327002, reward sum 67.85920311874312 
+2024-05-22 16:36:47 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.83617052616835, reward sum 189.0646876034466 
+2024-05-22 16:36:57 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.0500732148106475, reward sum 103.47637835759485 
+2024-05-22 16:37:03 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.4577598004362518, reward sum 69.49114098835577 
+2024-05-22 16:37:08 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.5895334970978316, reward sum 63.21277211573812 
+2024-05-22 16:37:13 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.7880261478688604, reward sum 69.88014066730456 
+2024-05-22 17:00:30 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.8572785536915004, reward sum 188.83403048024888 
+2024-05-22 17:00:40 - Bias traning it 2 of 5 done of the bias training epoch loss: 0.8699056878546171, reward sum 81.75991061906461 
+2024-05-22 17:00:45 - Bias traning it 3 of 5 done of the bias training epoch loss: 0.8092959041317409, reward sum 30.745197010162713 
+2024-05-22 17:00:50 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.5020987309309022, reward sum 63.06255039227513 
+2024-05-22 17:00:55 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.2429448246828805, reward sum 50.19840880803392 
+2024-05-22 17:01:39 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.707021114410174, reward sum 377.57263547627036 
+2024-05-22 17:01:49 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.5494598931422057, reward sum 136.87738028756542 
+2024-05-22 17:01:56 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.7711382067066155, reward sum 121.48198014696906 
+2024-05-22 17:02:04 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.8473574006023676, reward sum 131.9783706230561 
+2024-05-22 17:02:12 - Bias traning it 5 of 5 done of the bias training epoch loss: 2.169811023896186, reward sum 169.0599115672341 
+2024-05-22 17:04:57 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.523202584138638, reward sum 349.94689344333335 
+2024-05-22 17:05:08 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.3590656519083482, reward sum 148.92083613437754 
+2024-05-22 17:05:15 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.4565282816769223, reward sum 101.07716966570041 
+2024-05-22 17:05:22 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.5275859351034953, reward sum 113.74007283652756 
+2024-05-22 17:05:30 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.4947559813604299, reward sum 120.54596681848321 
+2024-05-22 19:58:15 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.6614064009277192, reward sum 369.41085298754285 
+2024-05-22 19:58:17 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.7745021027080663, reward sum 169.57369004237754 
+2024-05-22 19:58:18 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.996377641361554, reward sum 86.15401621877588 
+2024-05-22 19:58:19 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.7459591631012399, reward sum 83.76863603354462 
+2024-05-22 19:58:21 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.7449206718773367, reward sum 108.48375013969971 
+2024-05-22 20:01:06 - Bias traning it 1 of 5 done of the bias training epoch loss: 0.9746386381922567, reward sum 214.16477660197188 
+2024-05-22 20:01:08 - Bias traning it 2 of 5 done of the bias training epoch loss: 0.9707511382062373, reward sum 85.90734319106971 
+2024-05-22 20:01:09 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.1198019873658558, reward sum 72.23037012065373 
+2024-05-22 20:01:10 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.4452798907587994, reward sum 58.74245157958184 
+2024-05-22 20:01:12 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.6971591964864998, reward sum 105.89702808280731 
+2024-05-22 20:02:14 - Bias traning it 1 of 20 done of the bias training epoch loss: 0.844645832166944, reward sum 187.42677553487533 
+2024-05-22 20:02:16 - Bias traning it 2 of 20 done of the bias training epoch loss: 1.1449076205197697, reward sum 103.02938174661905 
+2024-05-22 20:02:17 - Bias traning it 3 of 20 done of the bias training epoch loss: 1.0579605615527317, reward sum 75.12983401509686 
+2024-05-22 20:02:18 - Bias traning it 4 of 20 done of the bias training epoch loss: 1.4466168953085177, reward sum 79.93925233644856 
+2024-05-22 20:02:19 - Bias traning it 5 of 20 done of the bias training epoch loss: 1.1203364299482257, reward sum 43.987221241777625 
+2024-05-22 20:02:20 - Bias traning it 6 of 20 done of the bias training epoch loss: 1.904153273106867, reward sum 62.578713692946025 
+2024-05-22 20:02:21 - Bias traning it 7 of 20 done of the bias training epoch loss: 2.1919196772084533, reward sum 61.34061652928621 
+2024-05-22 20:02:22 - Bias traning it 8 of 20 done of the bias training epoch loss: 2.162187182107644, reward sum 53.30705239315603 
+2024-05-22 20:02:23 - Bias traning it 9 of 20 done of the bias training epoch loss: 1.9415485025507886, reward sum 63.469663448698576 
+2024-05-22 20:02:24 - Bias traning it 10 of 20 done of the bias training epoch loss: 2.387834485408633, reward sum 84.13416853775732 
+2024-05-22 20:02:26 - Bias traning it 11 of 20 done of the bias training epoch loss: 2.081863055109158, reward sum 107.32955973511812 
+2024-05-22 20:02:27 - Bias traning it 12 of 20 done of the bias training epoch loss: 2.0890524802875055, reward sum 100.19093985091524 
+2024-05-22 20:02:28 - Bias traning it 13 of 20 done of the bias training epoch loss: 1.958726410970497, reward sum 89.37579288445829 
+2024-05-22 20:02:30 - Bias traning it 14 of 20 done of the bias training epoch loss: 1.704297319127787, reward sum 83.02455015189682 
+2024-05-22 20:02:32 - Bias traning it 15 of 20 done of the bias training epoch loss: 1.8990459756766769, reward sum 109.84623482207265 
+2024-05-22 20:02:33 - Bias traning it 16 of 20 done of the bias training epoch loss: 2.035238728567723, reward sum 114.54260502867712 
+2024-05-22 20:02:35 - Bias traning it 17 of 20 done of the bias training epoch loss: 1.9843345237838177, reward sum 120.67479669066294 
+2024-05-22 20:02:37 - Bias traning it 18 of 20 done of the bias training epoch loss: 1.9258337921847168, reward sum 179.97545980585207 
+2024-05-22 20:02:38 - Bias traning it 19 of 20 done of the bias training epoch loss: 1.823426088430565, reward sum 139.81290403261136 
+2024-05-22 20:02:40 - Bias traning it 20 of 20 done of the bias training epoch loss: 1.6104838874545926, reward sum 138.68678847915425 
+2024-05-22 20:05:32 - Bias traning it 1 of 20 done of the bias training epoch loss: 8.174333555065829, reward sum 1824.278229999999 
+2024-05-22 20:05:34 - Bias traning it 2 of 20 done of the bias training epoch loss: 9.366904030153297, reward sum 848.4210799999995 
+2024-05-22 20:05:35 - Bias traning it 3 of 20 done of the bias training epoch loss: 11.906757744625406, reward sum 529.8504399999998 
+2024-05-22 20:05:36 - Bias traning it 4 of 20 done of the bias training epoch loss: 12.91075110729447, reward sum 619.2315299999997 
+2024-05-22 20:05:37 - Bias traning it 5 of 20 done of the bias training epoch loss: 14.731658199718602, reward sum 798.1066199999997 
+2024-05-22 20:05:38 - Bias traning it 6 of 20 done of the bias training epoch loss: 16.61019795735392, reward sum 705.5539599999997 
+2024-05-22 20:05:39 - Bias traning it 7 of 20 done of the bias training epoch loss: 20.805966459977718, reward sum 827.4641599999993 
+2024-05-22 20:05:40 - Bias traning it 8 of 20 done of the bias training epoch loss: 22.42412779472899, reward sum 902.1422999999995 
+2024-05-22 20:05:41 - Bias traning it 9 of 20 done of the bias training epoch loss: 22.729057475756022, reward sum 1075.6359699999994 
+2024-05-22 20:05:42 - Bias traning it 10 of 20 done of the bias training epoch loss: 23.291539725847983, reward sum 1184.0370799999992 
+2024-05-22 20:05:44 - Bias traning it 11 of 20 done of the bias training epoch loss: 23.14882785197649, reward sum 1607.5677599999988 
+2024-05-22 20:05:45 - Bias traning it 12 of 20 done of the bias training epoch loss: 23.208689896089663, reward sum 2149.350079999999 
+2024-05-22 20:05:47 - Bias traning it 13 of 20 done of the bias training epoch loss: 24.56356362949471, reward sum 1672.8753099999994 
+2024-05-22 20:05:48 - Bias traning it 14 of 20 done of the bias training epoch loss: 24.74433841009052, reward sum 2217.1561699999993 
+2024-05-22 20:05:50 - Bias traning it 15 of 20 done of the bias training epoch loss: 23.506041231090755, reward sum 2338.5094799999997 
+2024-05-22 20:05:52 - Bias traning it 16 of 20 done of the bias training epoch loss: 23.366352471915953, reward sum 3142.5171600000003 
+2024-05-22 20:05:54 - Bias traning it 17 of 20 done of the bias training epoch loss: 22.447052819840938, reward sum 3875.979520000001 
+2024-05-22 20:05:56 - Bias traning it 18 of 20 done of the bias training epoch loss: 21.42571532929529, reward sum 3925.6117800000015 
+2024-05-22 20:05:58 - Bias traning it 19 of 20 done of the bias training epoch loss: 20.598693096096248, reward sum 5233.717040000003 
+2024-05-22 20:06:01 - Bias traning it 20 of 20 done of the bias training epoch loss: 19.567434080571836, reward sum 6126.983720000004 
+2024-05-22 20:06:53 - Bias traning it 1 of 20 done of the bias training epoch loss: -338.4355015670761, reward sum -1865.8391699999988 
+2024-05-22 20:06:54 - Bias traning it 2 of 20 done of the bias training epoch loss: -7184.554559353656, reward sum -591.1594799999984 
+2024-05-22 20:06:54 - Bias traning it 3 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:55 - Bias traning it 4 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:55 - Bias traning it 5 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:56 - Bias traning it 6 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:56 - Bias traning it 7 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:57 - Bias traning it 8 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:57 - Bias traning it 9 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:58 - Bias traning it 10 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:58 - Bias traning it 11 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:59 - Bias traning it 12 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:06:59 - Bias traning it 13 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:00 - Bias traning it 14 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:00 - Bias traning it 15 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:01 - Bias traning it 16 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:01 - Bias traning it 17 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:02 - Bias traning it 18 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:02 - Bias traning it 19 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:07:03 - Bias traning it 20 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:40 - Bias traning it 1 of 20 done of the bias training epoch loss: -321.6354034950473, reward sum -1809.4247499999988 
+2024-05-22 20:08:41 - Bias traning it 2 of 20 done of the bias training epoch loss: -6983.78614129202, reward sum -1105.658099999997 
+2024-05-22 20:08:42 - Bias traning it 3 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:42 - Bias traning it 4 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:43 - Bias traning it 5 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:43 - Bias traning it 6 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:44 - Bias traning it 7 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:44 - Bias traning it 8 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:45 - Bias traning it 9 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:45 - Bias traning it 10 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:46 - Bias traning it 11 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:46 - Bias traning it 12 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:47 - Bias traning it 13 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:47 - Bias traning it 14 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:48 - Bias traning it 15 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:48 - Bias traning it 16 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:49 - Bias traning it 17 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:49 - Bias traning it 18 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:50 - Bias traning it 19 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:08:50 - Bias traning it 20 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:12 - Bias traning it 1 of 20 done of the bias training epoch loss: -330.91436464771783, reward sum -1759.3191499999991 
+2024-05-22 20:09:14 - Bias traning it 2 of 20 done of the bias training epoch loss: -975.2864003037793, reward sum -2261.553549999998 
+2024-05-22 20:09:14 - Bias traning it 3 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:15 - Bias traning it 4 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:15 - Bias traning it 5 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:16 - Bias traning it 6 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:16 - Bias traning it 7 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:17 - Bias traning it 8 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:17 - Bias traning it 9 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:18 - Bias traning it 10 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:18 - Bias traning it 11 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:19 - Bias traning it 12 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:19 - Bias traning it 13 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:20 - Bias traning it 14 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:21 - Bias traning it 15 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:21 - Bias traning it 16 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:22 - Bias traning it 17 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:22 - Bias traning it 18 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:23 - Bias traning it 19 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:09:23 - Bias traning it 20 of 20 done of the bias training epoch loss: nan, reward sum 0.0 
+2024-05-22 20:10:23 - Bias traning it 1 of 20 done of the bias training epoch loss: 0.9015669423079458, reward sum 207.284893082346 
+2024-05-22 20:10:24 - Bias traning it 2 of 20 done of the bias training epoch loss: 1.0185434357287353, reward sum 96.9080628478549 
+2024-05-22 20:10:26 - Bias traning it 3 of 20 done of the bias training epoch loss: 1.141250565342836, reward sum 87.96133466385999 
+2024-05-22 20:10:27 - Bias traning it 4 of 20 done of the bias training epoch loss: 1.2342464331209242, reward sum 85.85757859263568 
+2024-05-22 20:10:28 - Bias traning it 5 of 20 done of the bias training epoch loss: 1.5394421055944327, reward sum 73.99090290280104 
+2024-05-22 20:10:29 - Bias traning it 6 of 20 done of the bias training epoch loss: 1.5802292612575435, reward sum 98.66019404074058 
+2024-05-22 20:10:31 - Bias traning it 7 of 20 done of the bias training epoch loss: 1.3137117575831831, reward sum 96.33453848377715 
+2024-05-22 20:10:32 - Bias traning it 8 of 20 done of the bias training epoch loss: 1.6430506051492098, reward sum 94.96583004984649 
+2024-05-22 20:10:34 - Bias traning it 9 of 20 done of the bias training epoch loss: 1.5566825771765982, reward sum 112.52308659076752 
+2024-05-22 20:10:35 - Bias traning it 10 of 20 done of the bias training epoch loss: 1.8373768410432412, reward sum 154.68999145002482 
+2024-05-22 20:10:37 - Bias traning it 11 of 20 done of the bias training epoch loss: 1.4838049862870402, reward sum 103.96718903548188 
+2024-05-22 20:10:38 - Bias traning it 12 of 20 done of the bias training epoch loss: 1.5414499096149588, reward sum 121.99253901087067 
+2024-05-22 20:10:39 - Bias traning it 13 of 20 done of the bias training epoch loss: 1.637960114707727, reward sum 132.19554292833936 
+2024-05-22 20:10:41 - Bias traning it 14 of 20 done of the bias training epoch loss: 1.5232582202798106, reward sum 145.24960332817295 
+2024-05-22 20:10:42 - Bias traning it 15 of 20 done of the bias training epoch loss: 1.5014244965059182, reward sum 118.71098039900133 
+2024-05-22 20:10:44 - Bias traning it 16 of 20 done of the bias training epoch loss: 1.6838328875461468, reward sum 156.13874875426905 
+2024-05-22 20:10:46 - Bias traning it 17 of 20 done of the bias training epoch loss: 1.579695517040161, reward sum 113.63560374806113 
+2024-05-22 20:10:47 - Bias traning it 18 of 20 done of the bias training epoch loss: 1.3942222064474954, reward sum 101.4792066135543 
+2024-05-22 20:10:48 - Bias traning it 19 of 20 done of the bias training epoch loss: 1.5392395495341027, reward sum 112.87937313923554 
+2024-05-22 20:10:50 - Bias traning it 20 of 20 done of the bias training epoch loss: 1.3573895009546897, reward sum 111.75898532571648 
+2024-05-22 20:12:44 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.730905828136119, reward sum 389.95029897648556 
+2024-05-22 20:13:34 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.7811803854266437, reward sum 398.4460169687618 
+2024-05-22 20:14:26 - Bias traning it 1 of 20 done of the bias training epoch loss: 1.5793458682359232, reward sum 368.34108313779325 
+2024-05-22 20:14:28 - Bias traning it 2 of 20 done of the bias training epoch loss: 1.9299748155583043, reward sum 173.26266550662015 
+2024-05-22 20:14:29 - Bias traning it 3 of 20 done of the bias training epoch loss: 1.8781853080859594, reward sum 124.51760792317428 
+2024-05-22 20:14:30 - Bias traning it 4 of 20 done of the bias training epoch loss: 1.536454573613816, reward sum 88.07980105124284 
+2024-05-22 20:14:32 - Bias traning it 5 of 20 done of the bias training epoch loss: 1.9897849913657846, reward sum 177.89519367864267 
+2024-05-22 20:14:33 - Bias traning it 6 of 20 done of the bias training epoch loss: 2.2492666753952486, reward sum 87.82466394253017 
+2024-05-22 20:14:35 - Bias traning it 7 of 20 done of the bias training epoch loss: 2.500066641524377, reward sum 156.31813238416186 
+2024-05-22 20:14:36 - Bias traning it 8 of 20 done of the bias training epoch loss: 2.5163599271811052, reward sum 166.2745548953966 
+2024-05-22 20:14:38 - Bias traning it 9 of 20 done of the bias training epoch loss: 2.1373106246270344, reward sum 260.71952139700346 
+2024-05-22 20:14:40 - Bias traning it 10 of 20 done of the bias training epoch loss: 1.5022922688553983, reward sum 105.00399253560389 
+2024-05-22 20:14:42 - Bias traning it 11 of 20 done of the bias training epoch loss: 1.4919619221914648, reward sum 170.31468086633535 
+2024-05-22 20:14:43 - Bias traning it 12 of 20 done of the bias training epoch loss: 1.7654968071530628, reward sum 174.23178770136707 
+2024-05-22 20:14:45 - Bias traning it 13 of 20 done of the bias training epoch loss: 1.5500319764292378, reward sum 216.22406977751686 
+2024-05-22 20:14:48 - Bias traning it 14 of 20 done of the bias training epoch loss: 1.4848008554507368, reward sum 241.01276544649915 
+2024-05-22 20:14:50 - Bias traning it 15 of 20 done of the bias training epoch loss: 1.503530238429963, reward sum 241.68235595730923 
+2024-05-22 20:14:52 - Bias traning it 16 of 20 done of the bias training epoch loss: 1.357159745689764, reward sum 264.3033311871311 
+2024-05-22 20:14:55 - Bias traning it 17 of 20 done of the bias training epoch loss: 1.142179959348479, reward sum 254.52711633602692 
+2024-05-22 20:14:57 - Bias traning it 18 of 20 done of the bias training epoch loss: 1.1990334139105998, reward sum 248.78857953442161 
+2024-05-22 20:15:00 - Bias traning it 19 of 20 done of the bias training epoch loss: 1.0194558378833927, reward sum 281.23803904180375 
+2024-05-22 20:15:03 - Bias traning it 20 of 20 done of the bias training epoch loss: 0.8737434635414432, reward sum 235.9968636883292 
+2024-05-23 10:01:01 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.4432133545991601, reward sum 327.52233549664896 
+2024-05-23 11:01:13 - Bias traning it 1 of 1 done of the bias training epoch loss: 2.094721064556442, reward sum 444.8509475579829 
+2024-05-23 11:03:16 - Bias traning it 1 of 1 done of the bias training epoch loss: 2.2349911463938192, reward sum 489.3366534765399 
+2024-05-23 11:03:28 - Bias traning it 1 of 1 done of the bias training epoch loss: 2.2334568471190734, reward sum 52.78985516387688 
+2024-05-23 11:03:39 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.7204028269074996, reward sum 40.578422309287085 
+2024-05-23 11:03:49 - Bias traning it 1 of 1 done of the bias training epoch loss: 2.098134339459688, reward sum 46.540999597648664 
+2024-05-23 11:04:33 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.8081680375766271, reward sum 43.750763159342185 
+2024-05-23 11:05:31 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.405821224273246, reward sum 36.022205794508224 
+2024-05-23 11:05:42 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.361037186727855, reward sum 31.1395628354204 
+2024-05-23 11:06:20 - Bias traning it 1 of 1 done of the bias training epoch loss: 1.6520049569781872, reward sum 36.74353380910239 
+2024-05-23 11:07:18 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.3975776153036723, reward sum 36.91942963450326 
+2024-05-23 11:07:19 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.2561593307266474, reward sum 15.41179343561437 
+2024-05-23 11:07:20 - Bias traning it 3 of 5 done of the bias training epoch loss: 0.9072386129331225, reward sum 5.3107421884436805 
+2024-05-23 11:07:21 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.1316805987835863, reward sum 5.926355059182052 
+2024-05-23 11:07:21 - Bias traning it 5 of 5 done of the bias training epoch loss: 0.8228779116633962, reward sum 6.357104976944445 
+2024-05-23 11:08:24 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.802183017543385, reward sum 201.2004935546719 
+2024-05-23 11:08:31 - Bias traning it 2 of 5 done of the bias training epoch loss: 2.005349564900386, reward sum 100.66814872865201 
+2024-05-23 11:08:35 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.6552264129506304, reward sum 48.77819329687209 
+2024-05-23 11:08:40 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.352979085225629, reward sum 41.259239701862214 
+2024-05-23 11:08:45 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.3681629703863725, reward sum 54.49391200198314 
+2024-05-23 11:09:50 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.8099196834507194, reward sum 190.8877195482951 
+2024-05-23 11:09:57 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.2483680302100246, reward sum 61.785287203642426 
+2024-05-23 11:10:02 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.6425850613532613, reward sum 57.15140796631721 
+2024-05-23 11:10:06 - Bias traning it 4 of 5 done of the bias training epoch loss: 2.2540348693853223, reward sum 47.98363831190241 
+2024-05-23 11:10:10 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.9381688177513348, reward sum 44.17520783117716 
+2024-05-23 11:11:12 - Bias traning it 1 of 5 done of the bias training epoch loss: 1.6926130752179172, reward sum 375.02970325182207 
+2024-05-23 11:11:27 - Bias traning it 2 of 5 done of the bias training epoch loss: 1.1409187241168113, reward sum 111.47435112380221 
+2024-05-23 11:11:39 - Bias traning it 3 of 5 done of the bias training epoch loss: 1.3631709743358935, reward sum 96.67942236652055 
+2024-05-23 11:11:47 - Bias traning it 4 of 5 done of the bias training epoch loss: 1.1380565959388678, reward sum 58.012522797320926 
+2024-05-23 11:11:56 - Bias traning it 5 of 5 done of the bias training epoch loss: 1.0103760220368538, reward sum 49.76429844030747 

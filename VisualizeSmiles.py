@@ -18,8 +18,7 @@ def epoch_data(data_file="models/SmilesLSTM_CHEMBL_22_22_epochs.pt_epoch_data"):
     spacing = np.linspace(1, epoch_data.shape[0], epoch_data.shape[0])
     loss = epoch_data[:,0]
     pc = epoch_data[:,1]
-    print(loss.shape)
-    print(spacing.shape)
+
     plt.scatter(spacing, loss)
     plt.savefig(f"epoch_data_plots_loss.png")
     plt.close()
@@ -27,4 +26,3 @@ def epoch_data(data_file="models/SmilesLSTM_CHEMBL_22_22_epochs.pt_epoch_data"):
     plt.scatter(spacing, pc)
     plt.savefig(f"epoch_data_plots_.png")
     
-epoch_data()

@@ -5,29 +5,54 @@ from torch.nn.functional import one_hot
 from SmilesData import __special__
 
 class SmilesLSTM(nn.Module):
-    def __init__(self, vocsize, device, max_len=130, hidden_size=256, num_layers=2, num_units=3):
+    def __init__(self, vocsize, device, max_len=130, hidden_size=256, num_layers=2):
+        """
+        Args:
+            vocsize (int): Number of tokens. Number of unique caracters in smiles string + padding, begin of sequence and end of sequence
+            device (str): device can be cuda or cpu
+            max_len (int, optional): max length of sequence, excess is padded. Defaults to 130.
+            hidden_size (int, optional): size of the hidden layers. Defaults to 256.
+            num_layers (int, optional): number of recurcion. Defaults to 2.
+        """
         super().__init__()
         self.device = device
         self.vocsize = vocsize
         self.max_len = max_len
         self.hidden_size = hidden_size
         self.num_layers = num_layers
-        self.num_units = num_units
         self.lstm = nn.LSTM(vocsize, hidden_size, bidirectional=False, batch_first=True, num_layers=num_layers, dropout=0.5)
         self.dropout_03 = nn.Dropout(0.3)
         self.linear = nn.Linear(hidden_size, vocsize)
         
 # h and c are initialized by pytorch and are then used in a batch config
     def forward(self, x):
+        """ only used for training
+        Args:
+            x (torch.tensor(batch size, sequence length=max_len, input size=vocsize)): input encoded in one hot format.
+
+        Returns:
+            x (torch.tensor(batch size, sequence length=max_len, input size=vocsize)): gives a tnesor with the output of the model. note this doesnt use a softmax functions as this is integrated in the Crossentropy loss function used in this model
+        """
         x, _ = self.lstm(x)
         x = self.dropout_03(x)
         x = self.linear(x)
         return x
 
     def sample(self, batch_size=128, temp=1., h=None, c=None):
-        
+        """
+        Args:
+            batch_size (int, optional): the number of smiles to be sampled. Defaults to 128.
+            temp (float, optional): theee temprature to be sampled at. This chnages the 'creativity' of the model. Defaults to 1..
+            h (torch.tensor(number of layers = num_layers, batch size = batch_size, hidden size = hidden_size), optional): the hidden short term memeory of the model only used within a sequence. Defaults to None.
+            c (torch.tensor(number of layers = num_layers, batch size = batch_size, hidden size = hidden_size), optional): the hidden long term memory of the model only used within a sequence. Defaults to None.
+
+        Returns:
+            accumulator torch.tensor(batch size = batch_size, sequence length = max_len): the sampled smiles index encoded.
+            h (torch.tensor(number of layers = num_layers, batch size = batch_size, hidden size = hidden_size), optional): the hidden short term memeory of the model only used within a sequence.
+            c (torch.tensor(number of layers = num_layers, batch size = batch_size, hidden size = hidden_size), optional): the hidden long term memory of the model only used within a sequence.
+        """
         bos_token = [k for k,v in __special__.items() if v == "<BOS>"][0]
-        x = torch.LongTensor([bos_token]*batch_size)
+        x = torch.LongTensor([bos_token]*batch_size).to(self.device)
         if h == None:
             h = torch.zeros((self.num_layers, batch_size, self.hidden_size)).to(self.device)
         if c == None:

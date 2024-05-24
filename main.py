@@ -1,52 +1,27 @@
-from rdkit import Chem
-from rdkit.Chem import Draw
-import torch
-from rdkit.Chem.Draw import IPythonConsole
-from torch.nn.functional import one_hot
-from SmilesGenerate import generate
-from SmilesData import __special__, logger
+from SmilesGenerate import generate_properties, generate, bias_training_generation
+from SmilesTrain import train
 from VisualizeSmiles import Visualize_Molecules_from_Smiles
+from rdkit.Chem import Descriptors
+from rdkit import Chem
+import matplotlib.pyplot as plt
 
+before_smiles, _, _, _ = generate("SmilesLSTM_CHEMBL_22_22_epochs.pt", 1000)
 
-logger("test", "models/testlog")
-
-
-# box= torch.load('SmilesLSTM5epddropouts.pt')
-# model,tokenizer = box['model'],box['tokenizer']
-# model.eval()
-
-# bos_token = [k for k,v in __special__.items() if v == "<BOS>"][0]
-# x = torch.LongTensor(bos_token)
-# x = one_hot(x, 37).float().unsqueeze(1).to('cpu')
-
-# res = model(x)
-# print(x.size())
-# print(res.size())
-
-# ======== start your code here =================================
-batch_size = 100
-smiles, pc, h, c = generate(file="CHEMBL22_10ep.pt", batch_size=batch_size, temp=1)
-n_print = 9
-len_smiles = len(smiles)
-indicies = []
-mols = []
-n = 0
-IPythonConsole.UninstallIPythonRenderer()
-if len_smiles >= n_print:
-
-    while n < len_smiles and len(mols) < n_print:
-        index = n-1
-        if index not in indicies:
-            indicies.append(index)
-            mols.append(Chem.MolFromSmiles(smiles[index])) # type: ignore
-            n += 1
-
-    img = Draw.MolsToGridImage(mols)
-    img.save("test.png")
+property_score = []
+for j, smile in enumerate(before_smiles):
+    mol = Chem.MolFromSmiles(smile) # type: ignore
+    property_score.append(Descriptors.MolLogP(mol)) # type: ignore
     
-print(f'{pc}% valid smiles')
-# print(h[:,1,:])
+plt.hist(property_score)
+plt.savefig("hist_logp_before.png")
+plt.close()
 
-Visualize_Molecules_from_Smiles(smiles)
-
-# ======== end your code here ===================================
+smiles = bias_training_generation("SmilesLSTM_CHEMBL_22_22_epochs.pt", logp_target=-6., device="cpu", num_loop=5, batch_size=1000)
+Visualize_Molecules_from_Smiles(smiles[0:8])
+property_score = []
+for j, smile in enumerate(smiles):
+    mol = Chem.MolFromSmiles(smile) # type: ignore
+    property_score.append(Descriptors.MolLogP(mol)) # type: ignore
+    
+plt.hist(property_score)
+plt.savefig("hist_logp_after.png")
