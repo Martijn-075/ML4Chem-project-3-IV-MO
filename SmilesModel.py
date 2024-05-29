@@ -7,6 +7,8 @@ from SmilesData import __special__
 class SmilesLSTM(nn.Module):
     def __init__(self, vocsize, device, max_len=130, hidden_size=256, num_layers=2):
         """
+        The init of the SMILES generating LSTM model.
+        
         Args:
             vocsize (int): Number of tokens. Number of unique caracters in smiles string + padding, begin of sequence and end of sequence
             device (str): device can be cuda or cpu
@@ -20,18 +22,21 @@ class SmilesLSTM(nn.Module):
         self.max_len = max_len
         self.hidden_size = hidden_size
         self.num_layers = num_layers
+        # It should be noted that the dropout is only for every layer except the last so in this implementation after the first layer ther is a 0.5 dropout (as specified in LSTM)  and a drpout of 0.3 for wich a separated layer needed to be used.
         self.lstm = nn.LSTM(vocsize, hidden_size, bidirectional=False, batch_first=True, num_layers=num_layers, dropout=0.5)
         self.dropout_03 = nn.Dropout(0.3)
         self.linear = nn.Linear(hidden_size, vocsize)
         
-# h and c are initialized by pytorch and are then used in a batch config
+
     def forward(self, x):
-        """ only used for training
+        """ 
+        The forward pass of the model. this function is only used during the training. For the sampling see the function below. It should be noted that the h and c hidden weights are init by torch and used for the rest of the batch.
+        
         Args:
             x (torch.tensor(batch size, sequence length=max_len, input size=vocsize)): input encoded in one hot format.
 
         Returns:
-            x (torch.tensor(batch size, sequence length=max_len, input size=vocsize)): gives a tnesor with the output of the model. note this doesnt use a softmax functions as this is integrated in the Crossentropy loss function used in this model
+            x (torch.tensor(batch size, sequence length=max_len, input size=vocsize)): gives a tnesor with the output of the model. note this doesnt use a softmax functions as this is integrated in the Crossentropy loss function used during training
         """
         x, _ = self.lstm(x)
         x = self.dropout_03(x)
@@ -40,6 +45,8 @@ class SmilesLSTM(nn.Module):
 
     def sample(self, batch_size=128, temp=1., h=None, c=None):
         """
+        The main sample function. This function is called from all generation functions. givven a batch size it returns that many SMILES. SMILES are not checked for valididty.
+        
         Args:
             batch_size (int, optional): the number of smiles to be sampled. Defaults to 128.
             temp (float, optional): theee temprature to be sampled at. This chnages the 'creativity' of the model. Defaults to 1..

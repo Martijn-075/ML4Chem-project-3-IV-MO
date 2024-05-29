@@ -33,6 +33,13 @@ class SmilesProvider(torch.utils.data.DataLoader): # type: ignore
     
     
 def logger(message, file_path):
+    """
+    A simple logger function that takes a meassage and puts the date and time infront of it.
+
+    Args:
+        message (str): The message that should be logged
+        file_path (str): The file path ot a file (doesnt have to exist)
+    """
     current_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     with open(file_path, 'a') as file:
         file.write(f"{current_time} - {message} \n")

@@ -1,9 +1,18 @@
 from rdkit import Chem
-from rdkit.Chem import Descriptors
 from rdkit.Chem import MACCSkeys
 from rdkit import DataStructs
 
 def MACCS_Tanimoto(smile, target_smile):
+    """
+    Given two SMILES strings the Tanimoto similarity is calcualted using the MACCS fingerprinting. This function is used during the RL training to give a score to the generated SMILES. This function uses the MACCS and Tanimoto similarity from RDKit.
+
+    Args:
+        smile (str): The (generated) SMILES wich should be comapred to the target SMILES
+        target_smile (str): The target SMILES.
+
+    Returns:
+        Similarity (float): The Tanimoto similarity score.
+    """
     smile = Chem.MolFromSmiles(smile) # type: ignore
     target_smile = Chem.MolFromSmiles(target_smile) # type: ignore
     
@@ -13,10 +22,6 @@ def MACCS_Tanimoto(smile, target_smile):
     Similarity = DataStructs.TanimotoSimilarity(smile_MACCS, target_smile_MACCS) # type: ignore
     return Similarity
 
-# mol = Chem.MolFromSmiles("CC1(C)[C@@H](N2[C@@H]([C@H](Cc3cn(nn3)c4ccccc4)C2=O)S1(=O)=O)C(=O)O") # type: ignore
-# logp = Descriptors.MolLogP(mol) # type: ignore
-
-# print(logp)
 
 
 
