@@ -1,3 +1,9 @@
+"""
+
+This module contains the train routine used to train the (base) model.
+
+"""
+
 import torch
 import torch.nn as nn
 import numpy as np

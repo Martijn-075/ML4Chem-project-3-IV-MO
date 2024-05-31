@@ -1,3 +1,9 @@
+"""
+
+This module conatians the main output routines from the model. This includes the base geenration of SMILES and generating SMILES after RL training. All routines can be used as final functions but are also called by other modules.
+
+"""
+
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
@@ -7,6 +13,7 @@ from tqdm import tqdm
 from rdkit.Chem import Descriptors
 from SmilesData import __special__, logger
 from Smilesfeatures import MACCS_Tanimoto
+
 
 def generate(file='SmilesLSTM_CHEMBL_22_50_epoch.pt', batch_size=64, temp=1., h=None, c=None):
     """
@@ -108,6 +115,7 @@ def RL_training_generation(file='SmilesLSTM_CHEMBL_22_50_epoch.pt', propertie="l
         
         {file}_pc_data (save file txt): table containing the % valid SMILES throughout the RL training.
     """
+    device = device if torch.cuda.is_available() else 'cpu'
     file = f"models/{file}"
     box = torch.load(file)
     model, tokenizer = box['model'], box['tokenizer']
@@ -116,11 +124,9 @@ def RL_training_generation(file='SmilesLSTM_CHEMBL_22_50_epoch.pt', propertie="l
     model.to(device)
 
     # generating SMILES with the current model
-    # ! untested removed from main loop as generated from current model is already called at the end of the loop.
     smiles, cp, indexed_smiles = generate_current_model(model, tokenizer, batch_size=batch_size, temp=1., device=device)
     indexed_smiles.to(device)
     
-
     # Array containing the % valid SMILES
     pc_array = np.zeros(num_loop)
     # The actual traning loop
@@ -162,6 +168,7 @@ def RL_training_generation(file='SmilesLSTM_CHEMBL_22_50_epoch.pt', propertie="l
     # Save the % valid smiles array for easy plotting
     np.savetxt(f"{file}_pc_data", pc_array)
     return smiles, pc
+ 
         
 def RL_train(model, index_smiles, rewards, lr=0.001, n_epochs=10, device="cuda"):
     """

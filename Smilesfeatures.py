@@ -1,6 +1,13 @@
+"""
+
+This module contains a function to determine the tanimoto similarity using the MACCS fingerprinting between two SMILES. This is used in the RL routines.
+
+"""
+
 from rdkit import Chem
 from rdkit.Chem import MACCSkeys
 from rdkit import DataStructs
+
 
 def MACCS_Tanimoto(smile, target_smile):
     """

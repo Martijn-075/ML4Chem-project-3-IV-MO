@@ -1,8 +1,15 @@
+"""
+
+This module contains the model. For this project a two layer LSTM was implemented acourding to Mol. Inf. 2018, 37, 1700111.
+
+"""
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.functional import one_hot
 from SmilesData import __special__
+
 
 class SmilesLSTM(nn.Module):
     def __init__(self, vocsize, device, max_len=130, hidden_size=256, num_layers=2):
@@ -42,6 +49,7 @@ class SmilesLSTM(nn.Module):
         x = self.dropout_03(x)
         x = self.linear(x)
         return x
+
 
     def sample(self, batch_size=128, temp=1., h=None, c=None):
         """
